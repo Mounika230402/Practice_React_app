@@ -1,0 +1,15 @@
+.List{
+    font-family:"Arial, Helvetica, sans-serif";
+    font-size:"50px";
+    font-weight:"bold";
+    margin-left: 20vw ;
+    border: 1px solid transparent;
+    width:60vw;
+    padding:10px 30px;
+}
+.List:hover{
+    box-shadow: 3px 3px 2px gray,-3px 3px 2px gray,-3px -3px 2px gray,3px -3px 2px gray;
+}
+.Button:hover{
+    box-shadow: 3px 3px 2px gray,-3px 3px 2px gray,-3px -3px 2px gray,3px -3px 2px gray;
+}

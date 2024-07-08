@@ -1,7 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CardExample from './components/cards/card_bootstrap';
+import TodoExample from './Tasks/Todo';
+
 
 function App() {
   return (
@@ -20,7 +21,9 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <CardExample />
+      {/* <CardsObjectsExample/>
+       */}
+       <TodoExample/>
     </div>
   );
 }
