@@ -1,0 +1,12 @@
+.Cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* flex-direction:row; */
+    justify-content:space-evenly;
+    align-content: space-evenly;
+    gap:7vw;
+}
+.Card1:hover{
+    box-shadow: 5px 5px 5px gray,-5px 5px 5px gray,-5px -5px 5px gray,5px -5px 5px gray ;
+
+}
