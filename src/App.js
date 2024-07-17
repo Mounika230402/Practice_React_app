@@ -1,29 +1,23 @@
 // import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import TodoExample from './Tasks/Todo';
+// import ClassButton from './components/button/button-class';
+// import ButtonFunction from './components/button/button-function';
+// import Example1 from './components/useContext/example2';
+import Example1 from './components/useContext/Example1';
+import Example2 from './components/useContext/Example2';
+import Stack from './components/Theme';
 
 
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-      {/* <CardsObjectsExample/>
-       */}
-       <TodoExample/>
+        {/* <Example1>
+        <Example2/>
+        </Example1> */}
+        <Stack/>
+       
+
     </div>
   );
 }
