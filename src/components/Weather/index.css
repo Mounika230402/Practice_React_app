@@ -1,0 +1,58 @@
+/* .Input{
+    background-color:black;
+    color:gray;
+    border:2px solid skyblue;
+    margin:10px;
+    height:35px;
+    padding:5px;
+    font-size:large;
+}
+*:focus{
+    outline:none
+}
+.btn,.btn:hover{
+    color:skyblue;
+    height:35px;
+    background-color: black;
+    border:2px solid skyblue;
+    font-size:large;
+} */
+body{
+    /* background-color: black; */
+}
+.Div{
+    padding:2vw 0;
+    width:20vw;
+    height:80vh;
+    border:1px solid transparent;
+    border-radius: 5%;
+background-image: url("./67581609-3daf-48e8-919c-aee8681a8f36.jpg"); 
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:20em;  
+
+}
+ input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+h1,p{
+    color: white;
+}
+.Temp{
+    color:white;
+    font-size: 7vw;
+}
+h2 {
+    color: white;
+}
+
+p {
+    font-size: 18px;
+}
