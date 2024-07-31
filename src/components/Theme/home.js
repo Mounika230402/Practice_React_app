@@ -1,14 +1,15 @@
 import React, { useContext } from "react"
 import { ContextVariable } from "./index.js";
 
+
 const Home = () => {
-    const object=useContext(ContextVariable)
-    console.log(object)
+    const {theme,color,ChangeColor}=useContext(ContextVariable)
+    
   return (
-    <div style={{backgroundColor:object.theme}}>
-      <h1 style={{color:object.color}}>Welcome To Home</h1>
-      <button onClick={()=>{object.ChangeColor()}} style={{backgroundColor:"blue",color:object.color}}>Mode</button>
-      <p style={{color:object.color}}>
+    <div style={{backgroundColor:theme}}>
+      <h1 style={{color:color}}>Welcome To Home</h1>
+      <button onClick={()=>{ChangeColor()}} style={{backgroundColor:color,color:theme}}>Mode</button>
+      <p style={{color:color}}>
       Context provides a way to pass data through the component tree without having to pass props down manually at every level.
 
 In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme) that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.

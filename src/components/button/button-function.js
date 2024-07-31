@@ -1,5 +1,5 @@
 import React from "react";
-import hoc from "../hoc/hoc";
+// import hoc from "../hoc/hoc";
 function ButtonFunction(prop){
     const{text,onPress}=prop
     let buttonStyle={backgroundColor:"#0000FF",color:"white",border:"none",margin:"0px 20px",padding:"5px 20px"}
@@ -7,4 +7,4 @@ function ButtonFunction(prop){
         <button text={text} onClick={onPress} style={buttonStyle} width={100} height={100}>{text}</button>
     )
 }
-export default hoc(ButtonFunction);
+export default ButtonFunction;
